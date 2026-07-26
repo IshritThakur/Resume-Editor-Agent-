@@ -1,0 +1,39 @@
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
+*.bbl
+*.blg
+
+# Generated/binary outputs
+*.pdf
+*.PDF
+*.gz
+*.tmp
+
+# Ignore all local TeX resume files by default
+*.tex
+
+# Keep one safe example template in version control
+!examples/resume_template.tex
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
